@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables / secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Static and media generated files
+media/
+
+# Docker / sockets
+uwsgi_app.sock
+
+# SSL certificates and private keys
+ssl/
+*.crt
+*.key
+
+# Personal files
+All ID and Pass
+
+# Documents
+*.doc
+*.docx
+*.pdf
